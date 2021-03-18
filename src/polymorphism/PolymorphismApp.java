@@ -39,7 +39,7 @@ public class PolymorphismApp {
 	
 	/*
 	Take Aways...
-	>>At compile time, methods inor inherited by the declared type [aka reference type] 
+	>>At compile time, methods in or inherited by the declared type [aka reference type] 
 			determines the correctness of a non-static method call
 	>>At run-time, the method in the actual [aka run, object] type is executed for a non-static method call
 	 */
