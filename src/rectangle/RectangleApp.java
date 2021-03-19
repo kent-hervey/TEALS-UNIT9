@@ -18,6 +18,7 @@ public class RectangleApp {
         Rectangle longRectangle = new LongRectangle(4);
         System.out.println("Length and width of longRectangle is:  " + longRectangle.getSides() );
         longRectangle.area();
+        longRectangle.draw();
         
         
         
