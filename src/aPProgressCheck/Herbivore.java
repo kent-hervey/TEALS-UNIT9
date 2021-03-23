@@ -6,6 +6,11 @@ public class Herbivore extends Animal {
 		super("herbivore", species, name);
 		
 	}
+
+	@Override
+	public String toString() {
+		return "[inside Herbivore ]" + super.toString();
+	}
 	
 	
 
