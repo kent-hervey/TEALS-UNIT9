@@ -6,6 +6,12 @@ public class Animal {
 	private String species;
 	private String name;
 	
+	
+	/**
+	 * @param classification
+	 * @param species
+	 * @param name
+	 */
 	public Animal(String classification, String species, String name) {
 		this.classification = classification;
 		this.species = species;
@@ -15,7 +21,7 @@ public class Animal {
 	
 	public String toString() {
 		String string = "";
-		string = name + " the " + species + " is a " + classification;
+		string = "[inside Aminal.java]" + name + " the " + species + " is a " + classification;
 		return string;
 	}
 	
