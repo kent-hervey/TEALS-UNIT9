@@ -15,9 +15,9 @@ public class PetApp {
 		System.out.println("and the toString way:  " + pet.toString());
 		
 		//Testing Dog
-		Pet dog = new Dog("Charlie", "dog", "Husky");
+		Pet dog = new Dog("Charlie", "dog", "husky");
 		// for testing case where reference Type is run type
-		Dog dog2 = new Dog("Doug", "dog", "Husky");
+		Dog dog2 = new Dog("Doug", "dog", "husky");
 		
 		String theSpeciesDog = dog.getSpecies();
 		String theNameDog = dog.getName();
@@ -28,5 +28,13 @@ public class PetApp {
 		
 		System.out.println("Info on dog2 (declared type and run type both Dog) using toString:  " + dog2.toString());	
 		System.out.println("What does the dog say?  \n\t" + dog2.speak());
+		
+		//Testing Puppy
+		Puppy puppy = new Puppy("Erin", "dog", "poodle");
+		
+		System.out.println("Here is the puppy:  "+ puppy.toString());
+		System.out.println("Puppy says:  " + puppy.speak());
+		
+		
 	}
 }
