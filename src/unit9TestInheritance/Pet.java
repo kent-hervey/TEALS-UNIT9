@@ -26,7 +26,7 @@ public class Pet {
 	// Returns a string representation of this pet
 	public String toString()
 	{
-	    return  name + "  is a  " + species;
+	    return  name + " is a " + species;
 	}
 	
 	// This method should return a string indicating what this pet says
