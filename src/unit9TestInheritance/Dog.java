@@ -17,7 +17,8 @@ public class Dog extends Pet {
 	// Returns a string representation of this dog. The string should have the
 	// following format: <dog’s name> " is a " <species> " of breed " <breed>
 	public String toString() {
-		return this.getName() + " is a " + this.getSpecies() + " of breed " + this.breed;
+		//return this.getName() + " is a " + this.getSpecies() + " of breed " + this.breed;
+		return super.toString() + " of breed " + this.breed;
 	}
 
 	// Returns a string indicating what this dog says. You may choose what your
