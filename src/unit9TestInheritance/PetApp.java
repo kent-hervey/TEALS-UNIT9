@@ -27,5 +27,6 @@ public class PetApp {
 		System.out.println("   However, downcasting makes it work:  String theBreed = ((Dog) dog).getBreed()");
 		
 		System.out.println("Info on dog2 (declared type and run type both Dog) using toString:  " + dog2.toString());	
+		System.out.println("What does the dog say?  \n\t" + dog2.speak());
 	}
 }
