@@ -35,6 +35,11 @@ public class PetApp {
 		System.out.println("Here is the puppy:  "+ puppy.toString());
 		System.out.println("Puppy says:  " + puppy.speak());
 		
+		//Testing Snake
+		Snake snake = new Snake("Sam The Snake", "11", "yellow");
+		System.out.println("here is the snake " + snake.toString());
+		System.out.println("Snake says:  " + snake.speak());
+		
 		
 	}
 }
